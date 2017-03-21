@@ -84,36 +84,9 @@ a.disabled {
     overflow-y: auto;
 }
 
-.centre,
-.centre-bold {
-    text-align: center;
-}
-
-.centre-bold {
-    font-style: bold;
-    font-size: 16px;
-}
-
-.main-tr tr {
-    text-align: left;
-    font-weight: normal;
-    padding: 7px 0;
-    float: left;
-}
-
-.main-tr td {
-    padding: 10px 0;
-}
-
 .main-tr thead {
     border-bottom: 1px solid #9a9a9a;
     font-size: 12px;
-}
-
-.main-tr th {
-    text-align: left;
-    font-weight: normal;
-    padding: 7px 0;
 }
 
 .main-tr td:first-child {
@@ -123,13 +96,21 @@ a.disabled {
 .scroll {
     width: 235px;
 }
+.centre,
+.centre-bold {
+    text-align: center;
+}
 
+.centre-bold {
+    font-style: bold;
+    font-size: 16px;
+}
 .comment {
     font-size: 11px;
     font-family: Roboto Mono, lucida sans unicode;
     color: #646464;
     padding: 0 5px;
-    width: 140px;
+    width: 175px;
 }
 
 .text-for-scroll {
@@ -138,7 +119,7 @@ a.disabled {
     color: #646464;
     padding: 0 5px;
     margin: 0 5px;
-    width: 25px;
+    width: 35px;
 }
 
 .main-tr tbody,
@@ -148,27 +129,25 @@ a.disabled {
     display: block;
 }
 
-.main-tr th,
-.main-tr td{
-    width: 20%;
-    border-left: 1px solid linear-gradient(to bottom, #fafafa, #d0d0d0);
+
+.main-tr th:first-child{
+    width: 12%;
 }
 
-.main-tr th:first-child,
 .main-tr td:first-child{
-    width: 10%;
+    width: 11%;
 }
 
 .main-tr th:nth-child(2),
 .main-tr td:nth-child(2) {
-    width: 6%;
+    width: 5%;
 }
 
 .main-tr th:nth-child(3) {
-    width: 29%;
+    width: 28%;
 }
 .main-tr td:nth-child(3) {
-    width: 30%;
+    width: 25%;
 }
 
 .main-tr th:nth-child(4),
@@ -176,18 +155,35 @@ a.disabled {
     width: 7%;
 }
 
+.main-tr th:nth-child(5) {
+    width: 23%;
+}
+.main-tr td:nth-child(5) {
+    width: 18%;
+}
+
 .main-tr th:nth-child(6) {
-    width: 6%;
+    width: 8%;
 }
 
 .main-tr td:nth-child(6) {
     width: 4%;
 }
-.main-tr th:nth-child(7),
+.main-tr th:nth-child(7) {
+    width: 20%;
+}
+
 .main-tr td:nth-child(7) {
     width: 25%;
 }
-
+.main-tr tr,
+.main-tr th {
+    text-align: left;
+    font-weight: normal;
+    padding: 7px 0;
+    border-left: 1px solid linear-gradient(to bottom, #fafafa, #d0d0d0);
+    /*float: left;*/
+}
 
 /*__BUTTON________________________________________________________________________*/
 
@@ -322,7 +318,23 @@ h2 {
     overflow-y: auto;
 }
 
-.footer-table th,
+.footer-table th:nth-child(1) {
+    width: 20%;
+}
+.footer-table th:nth-child(2) {
+    width: 19.8%;
+}
+.footer-table th:nth-child(3) {
+    width: 20%;
+}
+.footer-table th:nth-child(4) {
+    width: 19.5%;
+}
+
+.footer-table th:nth-child(5) {
+    width: 20.7%;
+}
+
 .footer-table td {
     width: 20%;
 }
